@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card-area-start{
+    background-color: aqua;
+}
+.container{
+    margin: 0 auto;
+    min-width: 1440px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box{
+    border: 5px solid blue;
+    border-radius: 20px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+  
+}
